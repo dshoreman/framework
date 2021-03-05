@@ -167,7 +167,7 @@ class Route
             $this->methods[] = 'HEAD';
         }
 
-        $this->prefix(is_array($action) ? Arr::get($action, 'prefix') : '');
+        $this->prefix(is_array($action) ? Arr::get($action, 'prefix', '') : '');
     }
 
     /**
