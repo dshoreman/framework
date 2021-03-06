@@ -118,7 +118,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "8.x-dev"
+            "dev-master": "8.x-dev",
+            "dev-fixformatter": "8.x-dev"
         }
     },
     "suggest": {
